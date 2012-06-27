@@ -1,0 +1,30 @@
+[
+    {
+        "pk": 1,
+        "model": "registro_canaima.tipopersona",
+        "fields": {
+            "tipo": "Asistente"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "registro_canaima.tipopersona",
+        "fields": {
+            "tipo": "Ponente"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "registro_canaima.tipopersona",
+        "fields": {
+            "tipo": "Colaborador"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "registro_canaima.tipopersona",
+        "fields": {
+            "tipo": "Desarrollador"
+        }
+    }
+]
