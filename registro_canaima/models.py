@@ -13,6 +13,8 @@ class Personas(models.Model):
     carrera = models.ForeignKey('Carreras')
     email = models.EmailField(blank=True)
     telf = models.CharField(max_length=11,blank=True,)
+    asist_manana = models.BooleanField(blank=True)
+    asist_tarde = models.BooleanField(blank=True)
     class Meta:
         db_table = u'personas'
         verbose_name_plural = 'personas'
