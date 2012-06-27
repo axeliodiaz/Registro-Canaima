@@ -5,6 +5,7 @@ from django.contrib import admin
 class Personas(models.Model):
     tipodoc = models.CharField(choices=(('c','Cédula'),('p','Pasaporte')),default=0,max_length=1, verbose_name=u'Tipo de Identificación')
     num_identificacion = models.CharField(max_length=50,unique=True,verbose_name=u'Número de Identificación')
+    evento = models.ForeignKey('Evento')
     primer_apellido = models.CharField(max_length=100)
     segundo_apellido = models.CharField(max_length=20,blank=True)
     primer_nombre = models.CharField(max_length=20)
@@ -28,4 +29,13 @@ class Carreras(models.Model):
         verbose_name_plural = 'carreras'
     def __unicode__(self):
         return u'%s'%(self.nombre)
-    
+
+class Evento(models.Model):
+    nombre = models.CharField(max_length=100)
+    fecha_inicio = models.DateField(verbose_name=u'Fecha de inicio')
+    fecha_fin = models.DateField(verbose_name=u'Fecha de culminación')
+    class Meta:
+        db_table = u'evento'
+    def __unicode__(self):
+        return u'%s'%(self.nombre)
+

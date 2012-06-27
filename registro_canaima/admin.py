@@ -12,3 +12,8 @@ class CarrerasAdmin(admin.ModelAdmin):
     search_fields=['nombre','personas__num_identificacion']
     list_display=['nombre']
 admin.site.register(Carreras,CarrerasAdmin)
+
+class EventosAdmin(admin.ModelAdmin):
+    search_fields=['nombre']
+    list_display=['nombre','fecha_inicio','fecha_fin']
+admin.site.register(Evento,EventosAdmin)
