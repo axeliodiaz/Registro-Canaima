@@ -11,7 +11,7 @@ class Personas(models.Model):
     segundo_nombre = models.CharField(max_length=20,blank=True)
     genero = models.IntegerField(choices=((0,'Masculino'),(1,'Femenino')),default=0,verbose_name=u'sexo')
     carrera = models.ForeignKey('Carreras')
-    email = models.EmailField(blank=True)
+    email = models.EmailField()
     telf = models.CharField(max_length=11,blank=True,)
     asist_manana = models.BooleanField(blank=True)
     asist_tarde = models.BooleanField(blank=True)
