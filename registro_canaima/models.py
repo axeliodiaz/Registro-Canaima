@@ -12,6 +12,7 @@ class Personas(models.Model):
     segundo_nombre = models.CharField(max_length=20,blank=True)
     tipo = models.ForeignKey('TipoPersona', verbose_name='Calidad de')
     genero = models.IntegerField(choices=((0,'Masculino'),(1,'Femenino')),default=0,verbose_name=u'género')
+    estado = models.ForeignKey('Estados')
     carrera = models.ForeignKey('Carreras')
     email = models.EmailField()
     telf = models.CharField(max_length=11,blank=True,)
@@ -22,6 +23,14 @@ class Personas(models.Model):
         verbose_name_plural = 'personas'
     def __unicode__(self):
         return u'(%s) %s %s'%(self.num_identificacion,self.primer_apellido,self.primer_nombre)
+
+class Estados(models.Model):
+    nombre = models.CharField(max_length=20)
+    class Meta:
+        db_table = u'estados'
+        verbose_name_plural = 'estados'
+    def __unicode__(self):
+        return u'%s'%(self.nombre)
 
 class TipoPersona(models.Model):
     tipo = models.CharField(max_length=20)
