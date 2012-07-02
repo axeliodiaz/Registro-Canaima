@@ -1,0 +1,177 @@
+[
+    {
+        "pk": 1,
+        "model": "registro_canaima.estados",
+        "fields": {
+            "nombre": "Amazonas"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "registro_canaima.estados",
+        "fields": {
+            "nombre": "Anzo\u00e1tegui"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "registro_canaima.estados",
+        "fields": {
+            "nombre": "Apure"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "registro_canaima.estados",
+        "fields": {
+            "nombre": "Aragua"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "registro_canaima.estados",
+        "fields": {
+            "nombre": "Barinas"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "registro_canaima.estados",
+        "fields": {
+            "nombre": "Bol\u00edvar"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "registro_canaima.estados",
+        "fields": {
+            "nombre": "Carabobo"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "registro_canaima.estados",
+        "fields": {
+            "nombre": "Cojedes"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "registro_canaima.estados",
+        "fields": {
+            "nombre": "Delta Amacuro"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "registro_canaima.estados",
+        "fields": {
+            "nombre": "Distrito Capital"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "registro_canaima.estados",
+        "fields": {
+            "nombre": "Falc\u00f3n"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "registro_canaima.estados",
+        "fields": {
+            "nombre": "Gu\u00e1rico"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "registro_canaima.estados",
+        "fields": {
+            "nombre": "Lara"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "registro_canaima.estados",
+        "fields": {
+            "nombre": "M\u00e9rida"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "registro_canaima.estados",
+        "fields": {
+            "nombre": "Miranda"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "registro_canaima.estados",
+        "fields": {
+            "nombre": "Monagas"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "registro_canaima.estados",
+        "fields": {
+            "nombre": "Nueva Esparta"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "registro_canaima.estados",
+        "fields": {
+            "nombre": "Portuguesa"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "registro_canaima.estados",
+        "fields": {
+            "nombre": "Sucre"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "registro_canaima.estados",
+        "fields": {
+            "nombre": "T\u00e1chira"
+        }
+    },
+    {
+        "pk": 21,
+        "model": "registro_canaima.estados",
+        "fields": {
+            "nombre": "Trujillo"
+        }
+    },
+    {
+        "pk": 22,
+        "model": "registro_canaima.estados",
+        "fields": {
+            "nombre": "Vargas"
+        }
+    },
+    {
+        "pk": 23,
+        "model": "registro_canaima.estados",
+        "fields": {
+            "nombre": "Yaracuy"
+        }
+    },
+    {
+        "pk": 24,
+        "model": "registro_canaima.estados",
+        "fields": {
+            "nombre": "Zulia"
+        }
+    },
+    {
+        "pk": 25,
+        "model": "registro_canaima.estados",
+        "fields": {
+            "nombre": "Guayana Esequiba"
+        }
+    }
+]
