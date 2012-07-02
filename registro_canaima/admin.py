@@ -9,10 +9,10 @@ class PersonasAdmin(admin.ModelAdmin):
     list_filter=['estado__nombre']
 admin.site.register(Personas,PersonasAdmin)
 
-class CarrerasAdmin(admin.ModelAdmin):
+class AreaAdmin(admin.ModelAdmin):
     search_fields=['nombre','personas__num_identificacion']
     list_display=['nombre']
-admin.site.register(Carreras,CarrerasAdmin)
+admin.site.register(Areas,AreaAdmin)
 
 class EventosAdmin(admin.ModelAdmin):
     search_fields=['nombre']

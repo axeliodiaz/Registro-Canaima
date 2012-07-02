@@ -13,7 +13,7 @@ class Personas(models.Model):
     tipo = models.ForeignKey('TipoPersona', verbose_name='Calidad de')
     genero = models.IntegerField(choices=((0,'Masculino'),(1,'Femenino')),default=0,verbose_name=u'género')
     estado = models.ForeignKey('Estados')
-    carrera = models.ForeignKey('Carreras')
+    area = models.ForeignKey('Areas',blank=True, null=True, verbose_name=u'área')
     email = models.EmailField()
     telf = models.CharField(max_length=11,blank=True,)
     asist_manana = models.BooleanField(blank=True,verbose_name=u'asistencia en la mañana')
@@ -40,11 +40,11 @@ class TipoPersona(models.Model):
     def __unicode__(self):
         return u'%s'%(self.tipo)
 
-class Carreras(models.Model):
+class Areas(models.Model):
     nombre = models.CharField(max_length=100)
     class Meta:
-        db_table = u'carreras'
-        verbose_name_plural = 'carreras'
+        db_table = u'area'
+        verbose_name = 'área'
     def __unicode__(self):
         return u'%s'%(self.nombre)
 
