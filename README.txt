@@ -16,3 +16,9 @@ $ ./manage.py syncdb; ./manage.py runserver
 
 De esta manera sincronizamos la base de datos y posteriormente, iniciamos el servidor.
 El sistema puede verse vía web en http://localhost:8000/
+
+Instalar Themes para el admin de django: 
+
+pip install django-grappelli
+
+Luego hacer un COLLECTSTATIC

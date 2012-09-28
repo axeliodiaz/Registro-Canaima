@@ -37,4 +37,7 @@ pip install django_qbe;
 
 echo 'Iniciando la instalación de gource';
 pip install gource;
+
+echo 'Iniciando la instalación del grappelli themes'
+pip install django-grappelli
 "
