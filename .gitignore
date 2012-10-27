@@ -8,3 +8,7 @@ settings/local.conf
 *.*~
 static/css/*
 static/js/*
+*.log
+*.pot
+*.pyc
+local_settings.py
